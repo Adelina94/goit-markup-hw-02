@@ -103,15 +103,18 @@ text-decoration: underline;
   letter-spacing: 0.64px;
 }
 
-nav div a span {
+.logo, 
+.logo:visited {
   text-decoration: none;
   text-transform: uppercase;
-  color: var(--navy-blue);
+  color: var(--iris);
   cursor: pointer;
   letter-spacing: 0.03em;
 }
 
-
-
+.logo::after { 
+  content: 'studio';
+  color: var(--navy-blue);
+}  
 
 
